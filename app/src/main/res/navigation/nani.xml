@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nani"
+    app:startDestination="@id/sdsda">
+
+    <fragment
+        android:id="@+id/sdsda"
+        android:name="com.iinncerredible.jjookker.irepc.Sdsda"
+        android:label="fragment_pollllliss"
+        tools:layout="@layout/fragment_sdsda" >
+        <action
+            android:id="@+id/action_sdsda_to_WOFFFow"
+            app:destination="@id/WOFFFow" />
+        <action
+            android:id="@+id/action_sdsda_to_wppppOOf"
+            app:destination="@id/wppppOOf" />
+    </fragment>
+    <fragment
+        android:id="@+id/WOFFFow"
+        android:name="com.iinncerredible.jjookker.irepc.WOFFFow"
+        android:label="fragment_w_o_f_f_fow"
+        tools:layout="@layout/fragment_w_o_f_f_fow" />
+    <fragment
+        android:id="@+id/wppppOOf"
+        android:name="com.iinncerredible.jjookker.irepc.WppppOOf"
+        android:label="fragment_wpppp_o_of"
+        tools:layout="@layout/fragment_wpppp_o_of" />
+</navigation>
